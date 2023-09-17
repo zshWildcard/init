@@ -3,3 +3,13 @@ Bare Ubuntu automatically initializes and configures components such as zsh, doc
 ## Install 
 clone this project
 execute `./init.sh`
+## Include
+- oh my zsh
+- git
+- curl
+- docker
+- docker-compose
+- ssh
+- vim
+
+
