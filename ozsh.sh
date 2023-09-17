@@ -7,4 +7,4 @@ sudo sed -i 's/plugins=(git)/plugins=(z git zsh-syntax-highlighting zsh-autosugg
 sudo sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="ys"/g' /root/.zshrc
 
 source ~/.zshrc
-chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
