@@ -7,9 +7,6 @@ sudo passwd
 apt update
 apt install curl vim ssh git zsh apt-transport-https ca-certificates gnupg-agent software-properties-common -y
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-./ozsh.sh
-
 # change hostname from concole
 echo "Enter the new hostname"
 read new_hostname
@@ -27,8 +24,6 @@ chmod u+x ./end.sh
 # you can adjust the order
 ./ssh.sh
 ./docker.sh
-#./end.sh
-
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ./ozsh.sh
-reboot
+./end.sh
+
