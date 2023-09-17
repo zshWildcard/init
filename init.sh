@@ -3,6 +3,7 @@
 echo "----------------------------------input the new root password------------------------------------------"
 sudo passwd
 
+su -
 # apt update and install base 
 sudo apt update
 sudo apt install curl vim ssh git zsh apt-transport-https ca-certificates gnupg-agent software-properties-common -y
