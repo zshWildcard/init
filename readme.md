@@ -11,5 +11,7 @@ execute `./init.sh`
 - docker-compose
 - ssh
 - vim
+- jdk-17
+- go
 
 
